@@ -15,7 +15,7 @@ This workshop teaches experienced React/TypeScript developers about:
 
 ### Prerequisites
 
-- Node.js 18+ and npm
+- Bun 1.0+
 - Experience with React, TypeScript. Next.js experience helps.
 - Basic understanding of server-side rendering concepts
 
@@ -27,10 +27,10 @@ git clone git@github.com:pitkane/react-19-workshop.git
 cd react-19-workshop
 
 # Install dependencies
-npm install
+bun install
 
 # Start the development server
-npm run dev
+bun run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to access the workshop.
@@ -64,19 +64,19 @@ Each task includes:
 
 ```bash
 # Development server with Turbopack
-npm run dev
+bun run dev
 
 # Build for production
-npm run build
+bun run build
 
 # Start production server
-npm start
+bun start
 
 # Run linting
-npm run lint
+bun run lint
 
 # Format code
-npm run format
+bun run format
 ```
 
 ## 📁 Key Files
@@ -130,7 +130,7 @@ types.ts                    # TypeScript definitions
 
 ## 🔧 Troubleshooting
 
-- **Build errors**: Run `npm run lint` to check for issues
+- **Build errors**: Run `bun run lint` to check for issues
 - **Server errors**: Check the console for detailed error messages
 - **API issues**: Rick & Morty API calls may occasionally fail; refresh to retry
 

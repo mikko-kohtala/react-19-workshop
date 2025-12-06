@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "React 19 Workshop",
-  description:
-    "Interactive workshop exploring React 19's new features including Server Components, Actions, and enhanced Context API",
-  generator: "Next.js 15",
+	title: "React 19 Workshop",
+	description:
+		"Interactive workshop exploring React 19's new features including Server Components, Actions, and enhanced Context API",
+	generator: "Next.js 15",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>{children}</body>
+		</html>
+	);
 }
