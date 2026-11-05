@@ -1,0 +1,16 @@
+{
+	"$schema": "./node_modules/oxfmt/configuration_schema.json",
+	// Matches the style the code is already formatted in, to avoid churn.
+	"useTabs": true,
+	"printWidth": 80,
+	"trailingComma": "es5",
+	"sortImports": { "newlinesBetween": false },
+	// Build output stays outside the formatter; Markdown is prose and must not churn.
+	"ignorePatterns": [
+		"**/.next/**",
+		"next-env.d.ts",
+		"**/*.md",
+		".cursor/**",
+		"bun.lock",
+	],
+}

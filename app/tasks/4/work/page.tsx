@@ -67,7 +67,7 @@ export default function WorkPage() {
 	const [characters, setCharacters] = useState<Character[]>([]);
 	const [loading, setLoading] = useState(true);
 	const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(
-		null,
+		null
 	);
 
 	// Load characters on mount

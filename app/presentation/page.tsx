@@ -10,7 +10,6 @@ import {
 	SidebarProvider,
 	SidebarTrigger,
 } from "@/components/ui/sidebar";
-
 import IntroductionSection from "./_components/01-introduction-section";
 import React18RecapSection from "./_components/02-react18-recap-section";
 import RSCSection from "./_components/03-rsc-section";

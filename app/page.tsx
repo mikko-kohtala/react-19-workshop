@@ -144,10 +144,10 @@ export default function Page() {
 											<div>cd react-19-workshop</div>
 											<div></div>
 											<div># Install dependencies</div>
-											<div>npm install</div>
+											<div>bun install</div>
 											<div></div>
 											<div># Start the development server</div>
-											<div>npm run dev</div>
+											<div>bun run dev</div>
 										</div>
 										<p className="text-sm mt-2 text-neutral-600">
 											Open{" "}

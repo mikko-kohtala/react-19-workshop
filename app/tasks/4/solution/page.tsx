@@ -380,7 +380,7 @@ function CharacterExplorerContent() {
 	const [characters, setCharacters] = useState<Character[]>([]);
 	const [loading, setLoading] = useState(true);
 	const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(
-		null,
+		null
 	);
 
 	// Using use() hook to get theme context
@@ -388,7 +388,7 @@ function CharacterExplorerContent() {
 
 	if (!themeContext) {
 		throw new Error(
-			"CharacterExplorerContent must be used within a ThemeProvider",
+			"CharacterExplorerContent must be used within a ThemeProvider"
 		);
 	}
 

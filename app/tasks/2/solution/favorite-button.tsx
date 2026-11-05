@@ -34,7 +34,7 @@ export function FavoriteButton({ characterId }: FavoriteButtonProps) {
 		} else {
 			// Remove from favorites
 			favoritesArray = favoritesArray.filter(
-				(id: number) => id !== characterId,
+				(id: number) => id !== characterId
 			);
 		}
 

@@ -1,0 +1,20 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"plugins": [
+		"react",
+		"nextjs",
+		"jsx-a11y",
+		"import",
+		"promise",
+		"unicorn",
+		"typescript",
+		"oxc"
+	],
+	"rules": {
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		// Carried over from the previous ESLint config
+		"react/no-unescaped-entities": "off"
+	},
+	"ignorePatterns": ["**/.next/**", "next-env.d.ts"]
+}

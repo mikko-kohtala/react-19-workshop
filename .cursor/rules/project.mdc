@@ -24,8 +24,8 @@ This repository is a hands-on workshop and presentation kit for "What's New in R
 - **next-themes 0.4.6**: Dark/light theme support
 
 **Development Tools:**
-- **ESLint 9.28.0**: Code linting with Next.js and React Hooks plugins
-- **Prettier 3.5.3**: Code formatting
+- **oxlint**: Code linting with Next.js and React Hooks rules
+- **oxfmt**: Code formatting
 - **React Syntax Highlighter**: Code block highlighting for presentations
 - **Depcheck**: Dependency analysis tool
 
